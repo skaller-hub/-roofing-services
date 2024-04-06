@@ -24,9 +24,11 @@
 .navbar-nav img {
     margin-right: 5px;
 }
+
 .navbar-nav a {
-    font-size: 18px; /* Adjust the font size as needed */
-  }
+    font-size: 18px;
+    /* Adjust the font size as needed */
+}
 
 #carouselExampleSlidesOnly {
     position: relative;
@@ -111,7 +113,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.btn{
+.btn {
     margin-bottom: 20px;
 }
 
@@ -135,29 +137,29 @@
 
 .nav-item {
     transition: opacity 0.5s ease-in-out;
-  }
-  
-  .nav-item:hover {
+}
+
+.nav-item:hover {
     opacity: 0.7;
-    transform: scale(1.1); 
-  }
+    transform: scale(1.1);
+}
 
-  .custom-image {
+.custom-image {
     transition: transform 0.3s ease-in-out;
-  }
+}
 
-  .custom-image:hover {
+.custom-image:hover {
     transform: scale(1.08);
-  }
+}
 
 
-  .container5 {
+.container5 {
     background: linear-gradient(to right, #dcd6f7, #ffffff) !important;
     border-radius: 5px;
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
-    margin-top: 20px; 
-    margin-bottom: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .container5 h3 {
@@ -178,11 +180,31 @@
 .container5 .row {
     display: flex;
     justify-content: center;
-    margin-left: 80px; 
-    margin-right: 90px; 
+    margin-left: 80px;
+    margin-right: 90px;
 }
 
 .container5 .card {
-    margin: 10px; 
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .carousel-caption p {
+
+        font-size: 14px;
+
+    }
+    .d-block {
+        height: 240px;
+    }
+    .card {
+        min-width: 200px;
+        max-height: 100px;
+    }
 }
 
